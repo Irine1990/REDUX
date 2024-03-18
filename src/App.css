@@ -1,0 +1,88 @@
+.text-light {
+  background: black;
+  color: white;
+  height: 60px;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.icon {
+  position: relative;
+  left: 1200px;
+  top: -50px;
+}
+
+.product-container {
+  width: 300px;
+  padding: 50px;
+  height: 33rem;
+  box-shadow: 0px 20px 10px lightgrey;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  top: 100px;
+}
+
+.product-poster {
+  width: 300px;
+  height: 350px;
+  object-fit: contain;
+}
+
+.product-spec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-summary {
+  font-size: 12px;
+  text-align: justify;
+}
+
+.product-cmst {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cal {
+  background: black;
+  color: aliceblue;
+  margin: 100px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100vw;
+  background-color: rgb(24, 23, 23);
+  padding: 25px;
+  color: white;
+  font-size: 30px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+.cal3{
+  position: relative;
+  top:-100px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.cal4 img{
+    width:40px;
+}
+.qty-input-box{
+  width:30px;
+  font-weight: bold;
+}
